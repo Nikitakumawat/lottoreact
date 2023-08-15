@@ -1,0 +1,1 @@
+export const GOOGLE_CUSTOM_IMAGE_API = `https://www.googleapis.com/customsearch/v1?`;
