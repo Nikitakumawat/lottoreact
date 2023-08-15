@@ -8,6 +8,7 @@ const InputField = ({
   minLength,
   maxLength,
   placeholder,
+  required
 }) => {
   return (
     <input
@@ -17,8 +18,14 @@ const InputField = ({
       minLength={minLength}
       maxLength={maxLength}
       placeholder={placeholder}
+      aria-valuemin={minLength}
+      aria-aria-valuemax={maxLength}
+      aria-valuenow={value}
+      aria-placeholder={placeholder}
+      required={required}
     />
   );
 };
 
 export default InputField;
+
