@@ -66,6 +66,7 @@ const Form = () => {
               minLength={MIN}
               maxLength={MAX}
               placeholder="Enter animal name"
+              required={true}
             />
           </label>
           {errorMessage && (
