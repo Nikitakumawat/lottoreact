@@ -13,4 +13,7 @@ REACT_APP_GOOGLE_API_KEY = AIzaSyAFuo6_ObmEWvPWunFxdPLPeBpIENLcs5o
 
 
 REACT_APP_CREATE_SEARCH_ENGINE_KEY = 62e0084c6ea124077
+
+
+Deployed on: https://lottoreact.vercel.app/
    
